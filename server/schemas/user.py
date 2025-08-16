@@ -1,6 +1,6 @@
 from pydantic import BaseModel, EmailStr , Field
 from typing import Optional
-from ..schemas.common import PyObjectId
+from .common import PyObjectId
 from datetime import datetime
 from bson import ObjectId
 from typing import List

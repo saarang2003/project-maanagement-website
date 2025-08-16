@@ -1,4 +1,4 @@
-from ..db.mongo import task_list_collection, task_collection
+from ..db.db import task_list_collection, task_collection
 from ..schemas.task_list import TaskListCreate, TaskListResponse, TaskListUpdate, TaskListWithTasksResponse
 from ..schemas.common import prepare_mongo_document
 from ..schemas.task import TaskResponse
